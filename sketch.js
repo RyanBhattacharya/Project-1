@@ -6,8 +6,8 @@ function setup() {
 
 }
 
-function draw() 
-{
+function draw()
+ {
    background(30);
 
   if (keyIsDown(RIGHT_ARROW)) 
@@ -28,12 +28,14 @@ function draw()
   }
 
   if (keyIsDown(DOWN_ARROW)) 
-  {
+{
+   background('red')
     box.position.y = box.position.y + 5;
   }
 
   drawSprites();
 }
+
 
 
 
